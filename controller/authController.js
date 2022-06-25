@@ -7,6 +7,8 @@ module.exports = {
       })
   },
   register: function(req, res) {
-    res.render('register')
+    res.render('register',{
+      layout: 'auth/main-auth',
+    })
 },
 }
